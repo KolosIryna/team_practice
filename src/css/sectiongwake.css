@@ -97,6 +97,8 @@ ul li {
   border-radius: 5px;
   color: var(--black);
   border-color: var(--button);
+  transition: color var(--transition-duration),
+  background-color var(--transition-duration);
 }
 
 .portfolio-button:focus,
@@ -113,3 +115,4 @@ ul li {
   margin-top: 50px;
   gap:24px;
 }
+
