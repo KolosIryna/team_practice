@@ -1,0 +1,116 @@
+:root {
+  --text-color: #696969;
+  --white: #ffffff;
+  --red: #ff3839;
+  --black: #000000;
+  --border-color: #d8d8d8;
+  --background-color:#202020;
+  
+
+ 
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+}
+
+ul{
+  padding-left: 0;
+  margin: 0;
+ 
+}
+ul li {
+list-style-type: none;
+}
+
+.services .container{
+display: flex;
+justify-content: space-between;
+}
+
+.services {
+
+
+background-color: var(--background-color);
+padding-top: 120px;
+padding-bottom: 102px;
+
+}
+
+.services-name {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+color:var(--white);
+padding-bottom: 20px;
+text-align: center;
+}
+.selected-name {
+color: var(--red);
+}
+.section-name {
+color: var(--white);
+padding-bottom: 24px;
+align-items: baseline;
+
+}
+.services-text {
+display: block;
+color: var(--white);
+width: 534px;
+padding-bottom: 52px;
+flex: none;
+
+
+}
+.button {
+
+background-color: var(--red);
+color: var(--white);
+width: 181px;
+height: 48px;
+}
+
+.advantages-list {
+display: flex;
+row-gap: 60px;
+column-gap: 20px;
+flex-wrap: wrap;
+
+
+}
+
+.advantages-item {
+display: flex;
+align-items: center;
+flex-direction: column;
+background:var(--white);
+border-radius: 5px; 
+flex-basis: calc((100% - 20px)/2);
+padding-right: 15px;
+padding-bottom:22px ;
+padding-left: 15px;
+}
+
+.discribe-advantages-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:var(--black);
+text-align: center;
+
+
+}
